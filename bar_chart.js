@@ -74,7 +74,6 @@ function update() {
 		.duration(1000)
 		.attr("x", function(d) { return x(d) - 3; })
 		.text(function(d) { return d; });
-
 }
 
 function add_data() {
@@ -109,7 +108,6 @@ function add_data() {
 	    .attr("fill", "white")
 	    .attr("text-anchor","end")
 	    .text(function(d) { return d; });
-
 }
 
 function remove_data() {
@@ -124,5 +122,4 @@ function remove_data() {
 		.duration(1000)
 		.style("fill-opacity", 0)
 		.remove();
-
 }
